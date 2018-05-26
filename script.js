@@ -15,6 +15,9 @@ $(document).ready(function () {
             async: true,
             dataType: "json",
             success: function (data) {
+                $("body").animate({
+                    "padding-top": "0.5em"
+                }, 1500);
                 $("#output").empty();
                 $("#endResults").empty();
                 for (var i = 0; i < data[1].length; i++) {

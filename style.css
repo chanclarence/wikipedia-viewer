@@ -30,7 +30,9 @@ p {
 
 footer {
     font-size: 0.7em;
-    color: lightgray
+    color: lightgray;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
 }
 
 a:link {
