@@ -3,6 +3,7 @@ $(document).ready(function () {
         window.open("https://en.wikipedia.org/wiki/Special:Random");
     });
 
+    // Coded with help from Dylan Israel - https://www.youtube.com/channel/UC5Wi_NYysX-LfcqT3Hq9Faw
     $("#searchButton").click(function () {
         // Gets search input
         var searchTerm = $("#searchTerm").val();
